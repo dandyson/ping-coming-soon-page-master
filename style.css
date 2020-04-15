@@ -1,0 +1,162 @@
+/******MOBILE DESIGN FIRST*******/
+
+/* GENERAL */
+
+body {
+  font-family: "Libre Franklin", sans-serif;
+  text-align: center;
+}
+
+/* TEXTDIV */
+
+#pingText {
+  margin-top: 85px;
+  font-size: 20px;
+}
+
+#launchText {
+  color: #BCBCBC;
+  font-size: 22px;
+  margin-top: 30px;
+  font-weight: 200;
+  margin-bottom: 0;
+}
+
+#textDiv span {
+  color: #000;
+  font-weight: 700;
+}
+
+#textDiv p {
+  font-size: 1em;
+}
+
+/*EMAIL DIV*/
+
+#emailDiv {
+  margin-top: 30px;
+}
+
+input {
+  border: 1px solid lightblue;
+  padding-left: 30px;
+  border-radius: 50px;
+  height: 40px;
+  width: 70%;
+}
+
+input:focus {
+  border: 0;
+}
+
+button {
+  color: white;
+  background-color: #4D7BF3;
+  border: none;
+  margin: 10px auto;
+  border-radius: 50px;
+  height: 40px;
+  width: 80%;
+  -webkit-box-shadow: 2px 9px 5px 1px rgba(0,0,0,0.1);
+  -moz-box-shadow: 2px 9px 5px 1px rgba(0,0,0,0.1);
+  box-shadow: 2px 9px 5px 1px rgba(0,0,0,0.1);
+}
+
+#errorText {
+  color: red;
+  font-size: 0.7em;
+  font-style: italic;
+}
+
+
+/*GRAPH DIV*/
+
+#graphDiv {
+  margin-top: 60px;
+}
+
+#graphDiv img {
+  height: 190px;
+}
+
+/*SOCIAL MEDIA DIV*/
+
+#socialDiv {
+  margin-top: 100px;
+}
+
+.socialImages {
+  height: 25px;
+  margin: 8px;
+}
+
+#copyrightText {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 0.7em;
+}
+
+/* FOOTER */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/****MEDIA QUERIES ****/
+
+@media (min-width: 600px) {
+/*Text Div*/
+
+#pingText {
+  font-size: 25px;
+}
+
+#launchText {
+  font-size: 42px;
+  font-weight: 200;
+}
+
+  /*Email Div*/
+
+  #emailDiv {
+   text-align: center;
+  }
+
+  input {
+    position: relative;
+    width: 250px;
+  }
+
+  #submitButton {
+    width: 155px;  
+  }
+
+/*GRAPH DIV*/
+
+#graphDiv {
+  margin-top: 60px;
+}
+
+#graphDiv img {
+  height: 275px;
+}
+
+/*SOCIAL MEDIA DIV*/
+
+#socialDiv {
+  margin-top: 50px;
+}
+
+.socialImages {
+  height: 15px;
+}
+
+#copyrightText {
+  margin-top: 10px;
+}
+
+}
