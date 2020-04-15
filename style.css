@@ -127,7 +127,7 @@ button {
   }
 
   input {
-    position: relative;
+
     width: 250px;
   }
 
@@ -137,9 +137,8 @@ button {
 
   #errorText {
     font-size: 0.6em;
-    text-align: left;
     margin-top: 0;
-    margin-left: 140px;
+    margin-right: 240px;
   }
 
 /*GRAPH DIV*/
