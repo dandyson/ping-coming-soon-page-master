@@ -135,6 +135,13 @@ button {
     width: 155px;  
   }
 
+  #errorText {
+    font-size: 0.6em;
+    text-align: left;
+    margin-top: 0;
+    margin-left: 140px;
+  }
+
 /*GRAPH DIV*/
 
 #graphDiv {
